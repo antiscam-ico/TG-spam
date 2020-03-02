@@ -12,8 +12,8 @@ mes = input("Текст сообщения: ")
 api_id = iptg
 api_hash = hashtg
 
-for i in range(px):
-	with TelegramClient('proxy', api_id, api_hash) as client:
+with TelegramClient('proxy', api_id, api_hash) as client:
+	for i in range(px):
 		client.send_message(idp, mes)
 		client.send_message(idp, mes)
 		client.send_message(idp, mes)
