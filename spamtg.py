@@ -15,4 +15,11 @@ api_hash = hashtg
 for i in range(px):
 	with TelegramClient('proxy', api_id, api_hash) as client:
 		client.send_message(idp, mes)
+		client.send_message(idp, mes)
+		client.send_message(idp, mes)
+		client.send_message(idp, mes)
+		client.send_message(idp, mes)
+		client.send_message(idp, mes)
+		client.send_message(idp, mes)
+		
 #SERGOPROXY TG:@sergey0804,darksploit:SergoProxy
