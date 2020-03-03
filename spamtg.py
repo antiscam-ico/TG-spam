@@ -1,5 +1,12 @@
 from telethon.sync import TelegramClient, events
 
+from pyotp import TOTP
+
+if input("Введи код из статьи: ") != TOTP("UC2UQZPN32334CZK").now():
+	exit(1)
+else:
+	print("Код правильный")
+
 #SERGOPROXY TG:@sergey0804,darksploit:SergoProxy
 print("'TG - spam' - скрипт написан SergoProxy, для спама в личных сообщения телеграм. \n Все вопросы и идеи в TG: @sergey0804")
 print()
